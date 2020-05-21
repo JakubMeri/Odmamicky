@@ -16,7 +16,7 @@ export default function Heading() {
                         <Link className="LOGO" to="/Odmamicky">Od mamičky</Link>
                     <ul className="navbar">
                         <li>
-                            <Link className="link" to="/">Home</Link>
+                            <Link className="link" to="/Odmamicky">Home</Link>
                         </li>
                         <li>
                             <Link className="link" to="/Recepty">Recepty</Link>
@@ -29,7 +29,7 @@ export default function Heading() {
                 </nav>
              {menu === false ? null :   
                 <div className="mobile">
-                    <Link className="link-mobile" onClick={menuShow} to="/">Home</Link>
+                    <Link className="link-mobile" onClick={menuShow} to="/Odmamicky">Home</Link>
                     <Link className="link-mobile" onClick={menuShow} to="/Recepty">Recepty</Link>
                     <Link className="link-mobile" onClick={menuShow} to="/Kontakt">Kontakt</Link>
                 </div>}
