@@ -1,5 +1,6 @@
 {
   "name": "odmamicky",
+  "homepage": "https://jakubmeri.github.io/Recepty",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
