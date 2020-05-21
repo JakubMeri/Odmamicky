@@ -13,7 +13,7 @@ export default function Heading() {
     return (
             <div>
                 <nav>
-                        <Link className="LOGO" to="/">Od mamičky</Link>
+                        <Link className="LOGO" to="/Odmamicky">Od mamičky</Link>
                     <ul className="navbar">
                         <li>
                             <Link className="link" to="/">Home</Link>

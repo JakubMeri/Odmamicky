@@ -1,6 +1,6 @@
 {
   "homepage": "http://jakubmeri.github.io/Odmamicky",
-  "name": "new-app",
+  "name": "odmamicky",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

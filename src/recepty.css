@@ -225,6 +225,9 @@ aside li:hover{
     z-index: 2;
     cursor: default;
 }
+.close-aside{
+    display: none;
+}
 @media screen and (max-width: 500px){
     .wrapper{
         min-height: 100vh;
@@ -306,6 +309,7 @@ aside li:hover{
         color: white;
         font-size: 30px;
         outline: none;
+        display: block;
     }
     .bottom{
         left: -40px;

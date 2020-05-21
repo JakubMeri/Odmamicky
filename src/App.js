@@ -19,7 +19,7 @@ function App() {
 <Router>
     <Header />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Odmamicky">
           <Home/>
         </Route>
         <Route path="/Recepty" component={Recepty} />
