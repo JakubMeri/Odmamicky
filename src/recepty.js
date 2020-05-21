@@ -12,6 +12,14 @@ const [ najdeny, Hladane ] = useState("");
 const [ recepty, novyRecept ] = useState([]);
 const [ query, setQuery ] = useState("");
 const [ id, noveID ] = useState(0);
+const [ aside, showAside ] = useState(false);
+
+
+const showRecepies = () => {
+    let show = !aside;
+    showAside(show);
+}
+
 
 const novy = (e) => {
     Hladane(e.target.value)
@@ -38,6 +46,7 @@ const getRecepies = async () => {
 const clickEvent = (e) =>{
     e.preventDefault();
     noveID(e.target.value);
+    showRecepies();
 }
 
 const renderData = () => {
@@ -55,6 +64,7 @@ const renderData = () => {
 }
 
 const onSubmit = (e)=>{
+    showRecepies();
     e.preventDefault();
     setQuery(najdeny);
     Hladane("");
@@ -67,13 +77,16 @@ const regEx = /[\s-]/;
                 <main>
                     <div className="hladaj"><form onSubmit={onSubmit}><input type="text" placeholder="Čo hľadáš...?" value={najdeny} onChange={novy} /><button type="submit">Hľadaj</button></form></div>
                     <div className="nadpis"><h3>Zoznam receptov</h3></div>
-                <aside>
+                    
+                     <aside className={aside ? "show" : "hidden"}>
                     <ul>
                         { recepty.map( recept => (
                             <Recept key={uuid()} kliknutie={clickEvent} hodnota={recept.recipe_id} img={recept.image_url} titul={recept.title.length > 18 ? `${recept.title.split(regEx).splice(0,2).join(" ")}...`  : recept.title}/>
                         ))}
                     </ul>
+                    <button className="close-aside" onClick={showRecepies}><i className="fas fa-times"></i></button>
                 </aside>
+
                 <div className="zobraz">
                  {recepty.length === 0 ? <h1 className="empty">Zadaj názov potraviny v angličtine</h1> : recepty.map(recept => ( <OtvorenyRecept key={uuid()} titul={Number(recept.recipe_id) === Number(id) ? recept.title : null} obrazok={recept.recipe_id == id ? recept.image_url : null} link={recept.recipe_id == id ? recept.source_url : null}/>))}
                 </div>

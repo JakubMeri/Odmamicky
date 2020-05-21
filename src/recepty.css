@@ -225,3 +225,95 @@ aside li:hover{
     z-index: 2;
     cursor: default;
 }
+@media screen and (max-width: 500px){
+    .wrapper{
+        min-height: 100vh;
+        padding: 0;
+        background: linear-gradient(to right, #feb47b, #ff7e5f);
+    }
+    .empty{
+        font-size: 30px;
+    }
+    .nadpis{
+        display: none;
+    }
+    .nadpis-strany{
+        margin: 0;
+        top: 10px;
+        position: relative;
+    }
+    main{
+        border-radius: 10px;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        box-shadow: none;
+    }
+    aside{
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        left: -100%;
+        position: absolute;
+        z-index: 5;
+        background: linear-gradient(to left, #feb47b, #ff7e5f);
+        transition: 1s;
+    }
+    .show{
+        left: 0;
+    }
+    .hidden{
+        left: -100%;
+    }
+    aside button{
+        position: absolute;
+        z-index: 4;
+        right: 0;
+    }
+    .hladaj{
+        grid-column: 1;
+    }
+    .hladaj button{
+        margin: 10px 0px;
+    }
+    .hladaj form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .hladaj form input{
+        width: 80vw;
+    }
+    .receptBox{
+        position: absolute;
+    }
+    .zobraz{
+        grid-column: 1;
+        grid-row: auto;
+        width: 100vw;
+        height: 500px;
+    }
+    .close-aside{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        border: none;
+        background: transparent;
+        color: white;
+        font-size: 30px;
+        outline: none;
+    }
+    .bottom{
+        left: -40px;
+        bottom: -350px;
+        width: 120%;
+    }
+    .img{
+        width: 250px;
+        height: 250px;
+    }
+}

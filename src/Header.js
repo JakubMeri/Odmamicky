@@ -25,7 +25,7 @@ export default function Heading() {
                             <Link className="link" to="/Kontakt">Kontakt</Link>
                         </li>
                     </ul>
-                    <button onClick={menuShow} className="mobile-menu-btn">{menu === false ? <i class="fas fa-hamburger"></i> :<i style={{color: "#ff7e5f"}} className="fas fa-hamburger"></i>}</button>
+                    <button onClick={menuShow} className="mobile-menu-btn">{menu === false ? <i className="fas fa-hamburger"></i> :<i style={{color: "#ff7e5f"}} className="fas fa-hamburger"></i>}</button>
                 </nav>
              {menu === false ? null :   
                 <div className="mobile">
