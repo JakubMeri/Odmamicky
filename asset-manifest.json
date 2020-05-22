@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Recepty/static/css/main.7045213b.chunk.css",
-    "main.js": "/Recepty/static/js/main.a0204d3b.chunk.js",
-    "main.js.map": "/Recepty/static/js/main.a0204d3b.chunk.js.map",
-    "runtime-main.js": "/Recepty/static/js/runtime-main.79b4e58b.js",
-    "runtime-main.js.map": "/Recepty/static/js/runtime-main.79b4e58b.js.map",
-    "static/js/2.27107596.chunk.js": "/Recepty/static/js/2.27107596.chunk.js",
-    "static/js/2.27107596.chunk.js.map": "/Recepty/static/js/2.27107596.chunk.js.map",
-    "index.html": "/Recepty/index.html",
-    "precache-manifest.6b7912f606ee942673405f65d4c1cbe8.js": "/Recepty/precache-manifest.6b7912f606ee942673405f65d4c1cbe8.js",
-    "service-worker.js": "/Recepty/service-worker.js",
-    "static/css/main.7045213b.chunk.css.map": "/Recepty/static/css/main.7045213b.chunk.css.map",
-    "static/js/2.27107596.chunk.js.LICENSE.txt": "/Recepty/static/js/2.27107596.chunk.js.LICENSE.txt",
-    "static/media/contact.css": "/Recepty/static/media/HomeWallpaper.c5df17fe.jpg"
+    "main.css": "/Odmamicky/static/css/main.f7e711ea.chunk.css",
+    "main.js": "/Odmamicky/static/js/main.ba1ef1ce.chunk.js",
+    "main.js.map": "/Odmamicky/static/js/main.ba1ef1ce.chunk.js.map",
+    "runtime-main.js": "/Odmamicky/static/js/runtime-main.54a15627.js",
+    "runtime-main.js.map": "/Odmamicky/static/js/runtime-main.54a15627.js.map",
+    "static/js/2.201e8bf3.chunk.js": "/Odmamicky/static/js/2.201e8bf3.chunk.js",
+    "static/js/2.201e8bf3.chunk.js.map": "/Odmamicky/static/js/2.201e8bf3.chunk.js.map",
+    "index.html": "/Odmamicky/index.html",
+    "precache-manifest.f1acba8e430c27196423d4cebb2c975f.js": "/Odmamicky/precache-manifest.f1acba8e430c27196423d4cebb2c975f.js",
+    "service-worker.js": "/Odmamicky/service-worker.js",
+    "static/css/main.f7e711ea.chunk.css.map": "/Odmamicky/static/css/main.f7e711ea.chunk.css.map",
+    "static/js/2.201e8bf3.chunk.js.LICENSE.txt": "/Odmamicky/static/js/2.201e8bf3.chunk.js.LICENSE.txt",
+    "static/media/contact.css": "/Odmamicky/static/media/HomeWallpaper.c5df17fe.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.79b4e58b.js",
-    "static/js/2.27107596.chunk.js",
-    "static/css/main.7045213b.chunk.css",
-    "static/js/main.a0204d3b.chunk.js"
+    "static/js/runtime-main.54a15627.js",
+    "static/js/2.201e8bf3.chunk.js",
+    "static/css/main.f7e711ea.chunk.css",
+    "static/js/main.ba1ef1ce.chunk.js"
   ]
 }
