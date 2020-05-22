@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Recepty/static/css/main.7045213b.chunk.css",
+    "main.js": "/Recepty/static/js/main.a0204d3b.chunk.js",
+    "main.js.map": "/Recepty/static/js/main.a0204d3b.chunk.js.map",
+    "runtime-main.js": "/Recepty/static/js/runtime-main.79b4e58b.js",
+    "runtime-main.js.map": "/Recepty/static/js/runtime-main.79b4e58b.js.map",
+    "static/js/2.27107596.chunk.js": "/Recepty/static/js/2.27107596.chunk.js",
+    "static/js/2.27107596.chunk.js.map": "/Recepty/static/js/2.27107596.chunk.js.map",
+    "index.html": "/Recepty/index.html",
+    "precache-manifest.6b7912f606ee942673405f65d4c1cbe8.js": "/Recepty/precache-manifest.6b7912f606ee942673405f65d4c1cbe8.js",
+    "service-worker.js": "/Recepty/service-worker.js",
+    "static/css/main.7045213b.chunk.css.map": "/Recepty/static/css/main.7045213b.chunk.css.map",
+    "static/js/2.27107596.chunk.js.LICENSE.txt": "/Recepty/static/js/2.27107596.chunk.js.LICENSE.txt",
+    "static/media/contact.css": "/Recepty/static/media/HomeWallpaper.c5df17fe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79b4e58b.js",
+    "static/js/2.27107596.chunk.js",
+    "static/css/main.7045213b.chunk.css",
+    "static/js/main.a0204d3b.chunk.js"
+  ]
+}
